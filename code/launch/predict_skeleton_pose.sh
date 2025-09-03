@@ -1,0 +1,9 @@
+python code/predict_skeleton.py \
+    --predict_data_list code/data/test_pose.txt \
+    --data_root code/data \
+    --model_name pct2 \
+    --pretrained_model checkpoints/skeleton/any_pose/best_model_684_regular.pkl \
+    --predict_output_dir code/predict \
+    --batch_size 16 \
+    --num_sample 4096 \
+    --vertices_sample 2048 \

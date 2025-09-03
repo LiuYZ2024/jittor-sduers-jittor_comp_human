@@ -1,0 +1,11 @@
+python code/train_skeleton.py \
+    --train_data_list code/data/train_mixamo.txt \
+    --val_data_list code/data/val_mixamo.txt \
+    --data_root code/data \
+    --model_name pct2 \
+    --output_dir code/output/skeleton/AT_pose/mixamo "$@" \
+    --epochs 2000 \
+    --learning_rate 0.00001 \
+    --num_sample 2048 \
+    --vertices_sample 1024 \
+    --random_pose 0

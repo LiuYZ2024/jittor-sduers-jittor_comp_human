@@ -1,0 +1,11 @@
+python code/train_skin.py \
+    --train_data_list code/data/train_list.txt \
+    --val_data_list code/data/val_list.txt \
+    --data_root code/data \
+    --model_name uniseg \
+    --output_dir code/output/skin "$@" \
+    --random_pose 0 \
+    --batch_size 8 \
+    --epochs 400 \
+    --num_sample 2048 \
+    --vertices_sample 1024 \

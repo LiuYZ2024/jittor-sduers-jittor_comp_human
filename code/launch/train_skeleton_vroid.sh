@@ -1,0 +1,11 @@
+python code/train_skeleton.py \
+    --train_data_list code/data/train_vroid.txt \
+    --val_data_list code/data/val_vroid.txt \
+    --data_root code/data \
+    --model_name pct2 \
+    --output_dir code/output/skeleton/AT_pose/vroid "$@" \
+    --epochs 2000 \
+    --learning_rate 0.00001 \
+    --num_sample 2048 \
+    --vertices_sample 1024 \
+    --random_pose 0

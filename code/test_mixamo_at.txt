@@ -1,0 +1,17 @@
+test/mixamo/3189.npz
+test/mixamo/3172.npz
+test/mixamo/3204.npz
+test/mixamo/3197.npz
+test/mixamo/3183.npz
+test/mixamo/3199.npz
+test/mixamo/3211.npz
+test/mixamo/3181.npz
+test/mixamo/3179.npz
+test/mixamo/3182.npz
+test/mixamo/3210.npz
+test/mixamo/3193.npz
+test/mixamo/3198.npz
+test/mixamo/3187.npz
+test/mixamo/3188.npz
+test/mixamo/3176.npz
+test/mixamo/3177.npz

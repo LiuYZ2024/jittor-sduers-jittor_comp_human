@@ -1,0 +1,9 @@
+python code/predict_skeleton.py \
+    --predict_data_list code/data/test_vroid_at.txt \
+    --data_root code/data \
+    --model_name pct2 \
+    --pretrained_model checkpoints/skeleton/AT_pose/vroid/best_model_805_vroid.pkl \
+    --predict_output_dir code/predict \
+    --batch_size 16 \
+    --num_sample 2048 \
+    --vertices_sample 1024 \

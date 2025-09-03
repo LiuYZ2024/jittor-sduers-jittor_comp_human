@@ -1,0 +1,9 @@
+python code/predict_skin.py \
+    --predict_data_list code/data/test_list.txt \
+    --data_root code/data \
+    --model_name uniseg \
+    --pretrained_model checkpoints/skin/AT_pose/best_model_204.pkl \
+    --predict_output_dir code/predict \
+    --batch_size 8 \
+    --num_sample 2048 \
+    --vertices_sample 1024 \
