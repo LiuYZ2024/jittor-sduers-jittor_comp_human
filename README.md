@@ -27,7 +27,7 @@ conda env create -f environment.yml
 
 ## 数据预处理
 https://cloud.tsinghua.edu.cn/f/a0e48edfe8834c7b8b4c/?dl=1
-将数据下载解压到 `<root>/code/` 下，执行以下命令对数据预处理：
+将数据下载解压到 `<root>/code/` 下，并将`<root>/code/`下的所有txt文件剪切到`<root>/code/data`文件夹下
 
 ## 训练
 第一步：
