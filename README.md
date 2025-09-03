@@ -1,5 +1,5 @@
-# jittor---jittor_comp_human
-Jittor人工智能算法挑战赛人体骨骼生成赛题B榜
+# jittor-广告位招租-jittor_comp_human
+Jittor人工智能算法挑战赛人体骨骼生成赛题B榜 广告位招租队
 
 ![效果](visualize.gif)
 
